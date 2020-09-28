@@ -1,9 +1,9 @@
 import React from 'react';
-import Card from 'Card.js'
+import Card from './Card.js'
 
 function List(props) {
     let cards = props.cards.map((card, i) => {
-        return <Card key={i} title={card.title} content={cards.content}/>
+        return <Card key={i} title={card.title} content={card.content}/>
     })
     return (
         <section class="List">
