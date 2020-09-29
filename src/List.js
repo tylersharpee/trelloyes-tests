@@ -6,11 +6,11 @@ function List(props) {
         return <Card key={i} title={card.title} content={card.content}/>
     })
     return (
-        <section class="List">
-        <header class="List-header">
+        <section className="List">
+        <header className="List-header">
           <h2>{props.header}</h2>
         </header>
-        <div class="List-cards">
+        <div className="List-cards">
             {cards}
         </div>
         </section>
